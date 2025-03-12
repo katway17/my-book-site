@@ -1,7 +1,6 @@
 import { books } from "../data/books";
 import BookCard from "../components/BookCard";
 import "./../styles/home.css";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +12,7 @@ export default function Home() {
           <p>Exploring stories, one page at a time.</p>
         </div>
         <div className="hero-image">
-          <img src="/public/Kat.jpg" alt="Kathleen Wayman" />
+          <img src="/kat.jpg" alt="Kathleen Wayman" />
         </div>
       </div>
 
@@ -27,7 +26,6 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
     </div>
   );
 }
