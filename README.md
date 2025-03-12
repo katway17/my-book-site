@@ -1,21 +1,34 @@
-**A cozy book-themed website showcasing my favorite reads, reviews, and bookstagram content!**
+# 📚 Kat's Book Website
 
-🔗 **Live Demo:** 
-(https://my-book-site-ebon.vercel.app/)
+Welcome to my personal book website! This project showcases my **favorite books**, **reviews**, and **book-related content**. It also features a **contact section** using **EmailJS API**, where visitors can send me messages directly.
 
-## 📖 About the Project
-This website is a personal project designed to share my favorite books, Goodreads activity, and book Instagram. Built using **React + Vite**, it offers a clean and cozy design while remaining fully responsive.
+---
 
-## ✨ Features
-- 📌 **Home Page:** A welcoming landing page with a hero section and favorite books list.
-- 📖 **Book Details:** Click on a book to see its summary, rating, and my personal review.
-- 📷 **Instagram Feed:** Displays my bookstagram directly on the site.
-- 📚 **Goodreads Section:** A dedicated page showcasing books I’ve read.
-- 📱 **Mobile-Friendly Design:** Fully responsive across all devices.
+## 🚀 Live Demo  
+🔗 (https://my-book-site-ebon.vercel.app/)
 
-## 🚀 Technologies Used
-- ⚛ **React** – Component-based UI
-- ⚡ **Vite** – Fast development environment
-- 🎨 **CSS** – Custom styling for a cozy aesthetic
-- 🔗 **React Router** – For seamless page navigation
-- ☁ **Vercel** – Deployed for fast hosting
+---
+
+## 📌 Features  
+✅ **Home Page** – Cozy design with a book-themed background  
+✅ **Favorite Books** – A collection of my all-time favorite reads  
+✅ **Book Details Page** – Click on any book to read my review & rating  
+✅ **Goodreads Integration** – Displays books from my Goodreads shelf  
+✅ **Instagram Embed** – Showcasing my Bookstagram posts  
+✅ **Contact Form (EmailJS API)** – Allows visitors to send me messages directly  
+✅ **Fully Responsive** – Works on **desktop, tablet, and mobile**  
+
+---
+
+## 🛠️ Built With  
+- **React + Vite** – Fast and modern web development  
+- **CSS Modules** – Styled for a cozy bookish feel  
+- **React Router** – Smooth navigation between pages  
+- **EmailJS API** – For sending messages through the contact form  
+- **Goodreads Widget** – Displays my book list  
+- **Instagram Embed** – Showcasing my book-related posts  
+
+---
+
+## 📩 Contact Me  
+You can send me a message directly from the **Contact** page! It uses **EmailJS** to securely send emails.
