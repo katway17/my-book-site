@@ -1,4 +1,4 @@
-# 📚 Kat's Book Website
+# 📚 Kat's Books Website
 
 Welcome to my personal book website! This project showcases my **favorite books**, **reviews**, and **book-related content**. It also features a **contact section** using **EmailJS API**, where visitors can send me messages directly.
 
