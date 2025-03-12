@@ -1,0 +1,97 @@
+/* 📖 Book Details Page */
+.book-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+
+    /* 🏆 Same background as Home */
+    background: url("/public/books.avif") center/cover no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 📖 Book Details Container */
+.book-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 50px;
+    margin-top: 80px;
+
+    /* 🏆 Matching Home Page Style */
+    background: rgba(245, 241, 231, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📷 Book Image */
+.book-details img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* 📖 Book Title */
+.book-details h1 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #3e2723;
+}
+
+/* ✍ Author Name */
+.book-details h2 {
+    font-size: 1.5rem;
+    color: #6d4c41;
+    margin-bottom: 10px;
+}
+
+/* 🏆 Book Details */
+.book-details .genre {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #3e2723;
+    margin-bottom: 10px;
+}
+
+/* ⭐ Rating */
+.book-details .rating {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+/* 📖 Book Summary */
+.book-details p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: #6d4c41;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* 🔙 Back to Home Button */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3e2723;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.back-button:hover {
+    background-color: #6d4c41;
+}

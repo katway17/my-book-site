@@ -1,0 +1,43 @@
+/* 📚 Goodreads Page Background */
+.goodreads-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    background: url("/books.avif") center/cover no-repeat fixed;
+    background-size: cover;
+    padding: 80px 40px 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* 🏠 Goodreads Content Box */
+  .goodreads-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    background: rgba(245, 241, 231, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+    margin-top: 60px; 
+  }
+  
+  /* 📖 Goodreads Widget Styling */
+  .gr_grid_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 700px;
+    margin-top: 20px;
+  }
+  
+  
+  

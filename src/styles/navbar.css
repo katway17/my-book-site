@@ -1,0 +1,88 @@
+/* 📌 Navbar Base Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    padding: 10px 30px;
+    background-color: #4a2c2a;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 45px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 📖 Logo */
+.logo {
+    text-decoration: none; 
+    color: white !important; 
+    font-size: 1.5rem; 
+    font-weight: normal; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* 📌 Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.nav-links li a:hover {
+    color: #d4a373;
+    transform: scale(1.05);
+}
+
+/* 🍔 Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* 📱 Mobile-Friendly Navbar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        background-color: #4a2c2a;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+}
+
+  
+  
+  

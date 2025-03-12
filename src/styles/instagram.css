@@ -1,0 +1,53 @@
+/* 🎥 Instagram Page Background */
+.instagram-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    background: url("/books.avif") center/cover no-repeat fixed;
+    background-size: cover;
+    padding: 80px 40px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🏠 Instagram Content Box */
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    background: rgba(245, 241, 231, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.instagram-embed {
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+/* 🔴 Instagram Button */
+.instagram-button a {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #E4405F;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.instagram-button a:hover {
+    background-color: #C13584;
+}
+
+  
