@@ -1,0 +1,65 @@
+/* 📬 Contact Page Background */
+.contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    background: url("/books.avif") center/cover no-repeat fixed;
+    background-size: cover;
+    padding: 80px 40px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 💬 Contact Form Container */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 40px;
+    background: rgba(245, 241, 231, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📝 Form Inputs */
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.contact-container input, .contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* 📤 Submit Button */
+.contact-container button {
+    padding: 10px 15px;
+    background-color: #3e2723;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-container button:hover {
+    background-color: #6d4c41;
+}
+
+/* ✅ Status Message */
+.status-message {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

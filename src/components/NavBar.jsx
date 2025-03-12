@@ -27,6 +27,7 @@ export default function NavBar() {
         <li><Link to="/" onClick={closeMenu}>Home</Link></li>
         <li><Link to="/goodreads" onClick={closeMenu}>Goodreads</Link></li>
         <li><Link to="/instagram" onClick={closeMenu}>Instagram</Link></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
   );
