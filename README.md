@@ -12,22 +12,20 @@ Welcome to my personal book website! This project showcases my **favorite books*
 ## 📌 Features  
 ✅ **Home Page** – Cozy design with a book-themed background  
 ✅ **Favorite Books** – A collection of my all-time favorite reads  
-✅ **Google Books Search** – Search for books using the **Google Books API** and view details
+✅ **Google Books Search** – Search for books using the **Google Books API** and view details  
 ✅ **Book Details Page** – Click on any book to read my review & rating  
 ✅ **Goodreads Integration** – Displays books from my Goodreads shelf  
 ✅ **Instagram Embed** – Showcasing my Bookstagram posts  
 ✅ **Contact Form (EmailJS API)** – Allows visitors to send me messages directly  
 ✅ **Fully Responsive** – Works on **desktop, tablet, and mobile**  
 
----
-
-## 🛠️ Built With  
-- **React + Vite** – Fast and modern web development  
-- **CSS Modules** – Styled for a cozy bookish feel  
-- **React Router** – Smooth navigation between pages  
-- **EmailJS API** – For sending messages through the contact form  
-- **Goodreads Widget** – Displays my book list  
-- **Instagram Embed** – Showcasing my book-related posts  
+## 🛠️ Technologies Used  
+✔ **Frontend:** React, JavaScript, CSS, HTML  
+✔ **State Management:** React Hooks (useState, useEffect)  
+✔ **API Integration:** Google Books API, EmailJS  
+✔ **Styling:** CSS Grid, Flexbox, Responsive Design  
+✔ **Deployment:** Vercel  
+✔ **Version Control:** Git, GitHub 
 
 ---
 
