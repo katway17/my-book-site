@@ -1,6 +1,6 @@
 # 📚 Kat's Books Website
 
-Welcome to my personal book website! This project showcases my **favorite books**, **reviews**, and **book-related content**. It also allows users to search for books via the **Google Books API**, and **contact section** using **EmailJS API**, where visitors can send me messages directly.
+Welcome to my personal book website! Here, you'll find my **favorite books**, **detailed reviews**, and other **book-related content**. You can also search for books using the **Google Books API** and reach out to me through the **contact section**, powered by **EmailJS API** for direct messaging.
 
 ---
 
