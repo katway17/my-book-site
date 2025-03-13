@@ -15,7 +15,7 @@ export default function Goodreads() {
   return (
     <div className="goodreads-page">
       <div className="goodreads-container">
-        <h1>📚 My Goodreads Shelf</h1>
+        <h1>My Goodreads Shelf</h1>
         <p>Check out my books from Goodreads!</p>
 
         {/* 📖 Goodreads Widget Embed */}

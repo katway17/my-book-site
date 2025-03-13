@@ -1,0 +1,136 @@
+/* 🏆 Google Books Search Section */
+.google-books-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(245, 241, 231, 0.5); 
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+    color: #3e2723;
+    margin-bottom: 15px;
+}
+
+/* ✅ Input & Button Styling */
+.google-books-search input {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #3e2723;
+    border-radius: 5px;
+}
+
+/* 📌 Wrapper for Search & Clear Buttons */
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* ✅ Ensures space between buttons */
+    margin-bottom: 20px; /* ✅ Creates space below */
+}
+
+/* ✅ Search Button (Styled) */
+.search-btn {
+    background-color: #3e2723;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-btn:hover {
+    background-color: #6d4c41;
+}
+
+/* ❌ Clear Search Button (Minimal Style) */
+.clear-search {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: inherit; /* Matches text color */
+    text-decoration: underline;
+}
+
+.clear-search:hover {
+    text-decoration: none;
+}
+
+
+/* ✅ Make Google Books Results Display in a Row */
+.google-books-search .books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    overflow-x: auto; /* Enables horizontal scrolling if too many books */
+}
+
+/* ✅ Style Each Book (Google Books Only) */
+.google-books-search .book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the "View Book" link to the bottom */
+    flex: 0 0 auto;
+    width: 180px;
+    text-align: center;
+    background: rgba(245, 241, 231, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensures all cards have equal height */
+}
+
+/* ✅ Google Books Images */
+.google-books-search .book-card img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+/* ✅ Book Title & Author */
+.google-books-search .book-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #3e2723;
+}
+
+.google-books-search .book-card p {
+    font-size: 0.9rem;
+    color: #6d4c41;
+}
+
+/* ✅ Make "View Book" Stay at the Bottom */
+.google-books-search .book-card a {
+    display: block;
+    margin-top: auto; /* Pushes it to the bottom */
+    padding: 8px;
+    background-color: #3e2723;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.google-books-search .book-card a:hover {
+    background-color: #6d4c41;
+}
+
+
+
+/* ✅ Prevents Google Books from affecting Favorite Books */
+.favorite-books {
+    margin-top: 50px; /* Ensures spacing */
+}
+
+
+
+

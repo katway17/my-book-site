@@ -9,7 +9,8 @@
     background: url("/books.avif") center/cover no-repeat fixed;
     background-size: cover;
     padding: 80px 40px 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: #3e2723;
   }
   
   /* 🏠 Goodreads Content Box */

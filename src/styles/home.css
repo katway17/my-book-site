@@ -61,12 +61,22 @@
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* 📚 Goodreads Section */
-.goodreads-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.hero-search-btn {
+    background: none;
+    border: 1px solid transparent; 
+    font-size: 1rem;
+    color: #3e2723;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px 10px; 
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
+
+.hero-search-btn:hover {
+    color: #6d4c41;
+    border: 1px solid #6d4c41; 
+}
+
 
 /* 📚 Favorite Books Section */
 .favorite-books {
@@ -146,6 +156,28 @@
 .book-card .read-more:hover {
     background-color: #6d4c41;
 }
+
+/* 🔝 Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4a2c2a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    background-color: #6d4c41;
+}
+
 
 /* 📱 Make Everything Responsive */
 @media (max-width: 768px) {

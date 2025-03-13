@@ -29,7 +29,7 @@ export default function Contact() {
   return (
     <div className="contact-page">
       <div className="contact-container">
-        <h1>📬 Contact Me</h1>
+        <h1>Contact Me</h1>
         <p>Have a question or want to collaborate? Send me a message!</p>
 
         <form onSubmit={handleSubmit}>
