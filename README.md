@@ -1,6 +1,6 @@
 # 📚 Kat's Books Website
 
-Welcome to my personal book website! This project showcases my **favorite books**, **reviews**, and **book-related content**. It also features a **contact section** using **EmailJS API**, where visitors can send me messages directly.
+Welcome to my personal book website! This project showcases my **favorite books**, **reviews**, and **book-related content**. It also allows users to search for books via the **Google Books API**, and **contact section** using **EmailJS API**, where visitors can send me messages directly.
 
 ---
 
@@ -12,6 +12,7 @@ Welcome to my personal book website! This project showcases my **favorite books*
 ## 📌 Features  
 ✅ **Home Page** – Cozy design with a book-themed background  
 ✅ **Favorite Books** – A collection of my all-time favorite reads  
+✅ **Google Books Search** – Search for books using the **Google Books API** and view details.
 ✅ **Book Details Page** – Click on any book to read my review & rating  
 ✅ **Goodreads Integration** – Displays books from my Goodreads shelf  
 ✅ **Instagram Embed** – Showcasing my Bookstagram posts  
