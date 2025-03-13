@@ -4,7 +4,7 @@ export default function Instagram() {
   return (
     <div className="instagram-page">
       <div className="instagram-container">
-        <h1>📖 My Instagram Feed</h1>
+        <h1>My Instagram Profile</h1>
         <p>Check out my latest bookstagram posts!</p>
 
         {/* 📸 Instagram Profile Embed */}
