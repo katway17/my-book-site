@@ -29,5 +29,3 @@ Welcome to my personal book website! Here, you'll find my **favorite books**, **
 
 ---
 
-## 📩 Contact Me  
-You can send me a message directly from the **Contact** page! It uses **EmailJS** to securely send emails.
